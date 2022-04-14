@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: 'Roboto';
+    padding-bottom: 0.5em;
 }
 
 header {
@@ -27,6 +28,7 @@ p{
     height: 86px; /* This needs to be the height of the image so it goes "out" of the ribbon" */
     position: relative;
     bottom: 7px; /* This to make it go in the middle of the ribbon */
+    margin-left: 1em;
 }
 
 .banner{
@@ -254,7 +256,7 @@ p{
 }
 
 #contact-us .form-wrapper{
-    width: 30%;
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -265,6 +267,7 @@ p{
 }
 
 #contact-us .row{
+    margin: 0;
     display: flex;
 }
 
@@ -275,11 +278,12 @@ p{
     margin-left: 2em;
 }
 #contact-us .row div{
+    margin: 0;
     flex:1;
 }
 
 #contact-us form{
-    width: 100%;
+    width: 30%;
 }
 
 #contact-us form div{
@@ -294,6 +298,7 @@ p{
     -webkit-border-radius: 0;
     border-radius: 0;
     border: 1px solid #A0A0A0;
+    box-sizing: border-box;
 }
 
 #contact-us h2{
