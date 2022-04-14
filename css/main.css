@@ -30,3 +30,7 @@
 section{
     border-bottom: 1px solid black;
 }
+
+header {
+    background-image: url("../img/bkg_1_1.png");
+}
