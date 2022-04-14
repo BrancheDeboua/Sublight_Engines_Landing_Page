@@ -26,3 +26,7 @@
     cursor: - - - ;
 }*/
 
+/* This is temporary and I will remove it when I'll be done with the html templating */
+section{
+    border-bottom: 1px solid black;
+}
