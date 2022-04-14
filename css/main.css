@@ -1,36 +1,52 @@
-/* CSS STRUCTURE TEMPLATE 
-.selector {
-     POSITIONING 
-    position: absolute, relative, fixed, etc;
-    z-index: 10;
-    top: 0;
-    right: 0;
-     DISPLAY & BOX MODEL 
-    display: block, flex, etc;
-    overflow: visible, hidden, scroll, etc;
-    box-sizing: border-box, etc;
-    width: - - -;
-    height: - - - ;
-    padding: 10px 10px;
-    border: 0 solid color;
-    margin: - - - ;
-     COLOR 
-    background: - - - ;
-    color: - - - ;
-     TEXT 
-    font-family: - - - ;
-    font-size: - - - ;
-    line-height: - - - ;
-    text-align: - - - ;
-     OTHER 
-    cursor: - - - ;
-}*/
-
-/* This is temporary and I will remove it when I'll be done with the html templating */
-section{
-    border-bottom: 1px solid black;
+body{
+    margin: 0;
 }
 
 header {
     background-image: url("../img/bkg_1_1.png");
+}
+
+#hero{
+    padding: 80px 0px 80px 0px; 
+    background-color: #383838;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#hero h2{
+    font-weight: 700;
+    font-size: 25px;
+    line-height:29px;
+    text-transform: uppercase;
+    font-style: normal;
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+#hero h3{
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 53px;
+    text-transform: uppercase;
+    font-family: 'Roboto';
+    margin: 0 0 30px 0;
+}
+
+#hero p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+
+#hero .icons{
+    /* maybe change this later? */
+    margin-top: 70px;
+    display: flex;
+}
+
+#hero .icons div{
+    flex: 1;
 }
