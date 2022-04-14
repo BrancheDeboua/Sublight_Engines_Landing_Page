@@ -5,6 +5,10 @@ body{
 
 header {
     background-image: url("../img/bkg_1_1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 900px;
+    padding-top: 1.5em;
 }
 
 h4{
@@ -14,6 +18,40 @@ h4{
 
 p{
     margin: 0;
+}
+
+.banner img{
+    height: 86px; /* This needs to be the height of the image so it goes "out" of the ribbon" */
+    position: relative;
+    bottom: 7px; /* This to make it go in the middle of the ribbon */
+}
+
+.banner{
+    height: 70px;
+    display: flex;
+    background-color: rgba(0,0,0,0.75);
+}
+
+.banner ul{
+    flex: 1;
+    text-align: right;
+    margin: 0 7em 0 0;
+    line-height: 70px;
+}
+
+.banner ul li{
+    display: inline-block;
+    margin: 0 3em 0 3em;
+}
+
+.banner ul li a{
+    font-weight: 700;
+    font-size: 16px;
+    /*line-height: 19px;*/
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 #hero{
