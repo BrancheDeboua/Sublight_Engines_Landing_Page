@@ -1,11 +1,11 @@
-/* CSS STRUCTURE TEMPLATE */
+/* CSS STRUCTURE TEMPLATE 
 .selector {
-    /* POSITIONING */
+     POSITIONING 
     position: absolute, relative, fixed, etc;
     z-index: 10;
     top: 0;
     right: 0;
-    /* DISPLAY & BOX MODEL */
+     DISPLAY & BOX MODEL 
     display: block, flex, etc;
     overflow: visible, hidden, scroll, etc;
     box-sizing: border-box, etc;
@@ -14,14 +14,15 @@
     padding: 10px 10px;
     border: 0 solid color;
     margin: - - - ;
-    /* COLOR */
+     COLOR 
     background: - - - ;
     color: - - - ;
-    /* TEXT */
+     TEXT 
     font-family: - - - ;
     font-size: - - - ;
     line-height: - - - ;
     text-align: - - - ;
-    /* OTHER */
+     OTHER 
     cursor: - - - ;
-}
+}*/
+
