@@ -33,6 +33,7 @@ header {
 }
 
 #hero p{
+    /* font doesn't look that good tbh and is maybe the wrong one */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -49,4 +50,49 @@ header {
 
 #hero .icons div{
     flex: 1;
+}
+
+#why-us{
+    display: flex;
+    flex-grow: 1 1 0;
+    width: 100%;
+}
+
+#why-us div{
+    flex: 1;
+    width: 100%;
+    padding: 3em;
+}
+
+#why-us img{
+    width: 75%;
+    height: 75%;
+}
+
+#why-us p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+#why-us h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#why-us h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    margin: 0;
 }
