@@ -7,8 +7,11 @@ header {
     background-image: url("../img/bkg_1_1.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    min-height: 900px;
+    min-height: 65rem;
     padding-top: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 h4{
@@ -52,6 +55,32 @@ p{
     text-transform: uppercase;
     color: #FFFFFF;
     text-decoration: none;
+}
+
+.slogan{
+    vertical-align: text-bottom;
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+.slogan h2{
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight:800;
+    font-size: 51px;
+    line-height:60px;
+    text-transform: uppercase;
+    margin:0;
+}
+
+.slogan h3{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 79px;
+    line-height: 93px;
+    text-transform: uppercase;
+    margin: 0;
+    color: #FFFFFF;
 }
 
 #hero{
