@@ -263,3 +263,34 @@ p{
     color: #FF7630;
     padding-right: 1em;
 }
+
+#copyright{
+    text-align: center;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #292929;
+}
+
+#footer-bottom{
+    padding: 3em;
+    display: flex;
+}
+
+#footer-bottom .offices{
+    flex: 1;
+}
+
+#footer-bottom .offices:last-child{
+    text-align: right;
+}
+
+.offices h3{
+    font-style:normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #FF7630;
+    margin: 0;
+}
