@@ -85,14 +85,14 @@ p{
     color: #FFFFFF;
 }
 
-#hero{
+#why{
     padding: 80px 0px 80px 0px; 
     background-color: #383838;
     text-align: center;
     color: #FFFFFF;
 }
 
-#hero h2{
+#why h2{
     font-weight: 700;
     font-size: 25px;
     line-height:29px;
@@ -102,7 +102,7 @@ p{
     margin: 0;
 }
 
-#hero h3{
+#why h3{
     font-weight: 900;
     font-size: 45px;
     line-height: 53px;
@@ -111,65 +111,60 @@ p{
     margin: 0 0 30px 0;
 }
 
-#hero p{
-    /* font doesn't look that good tbh and is maybe the wrong one */
+#why p{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 25px;
     line-height: 29px;
     text-transform: uppercase;
+    margin-top: 1em;
 }
 
-#hero .icons{
+#why .icons{
     /* maybe change this later? */
-    margin-top: 70px;
     margin: 70px 15em 0 15em;
     display: flex;
 }
 
-#hero .icons div{
+#why .icons div{
     flex: 1;
 }
 
-#why-us{
+#product-description{
     display: flex;
     justify-content: center;
 }
 
-.why-wrapper{
+.product-description-wrapper{
     display: flex;
     width: 100%;
     max-width: 1440px;
     padding: 3em;
     box-sizing: border-box;
 }
-#why-us div{
+#product-description div{
     width: 100%;
 }
 
-#why-us .img{
+#product-description .img{
     min-width:500px;
     width:100%;
     flex:1;
 }
 
-#why-us img{
+#product-description img{
     width: 100%;
     max-height: 250px;
     object-fit: cover;
 }
 
-#why-us .content{
+#product-description .content{
     padding-right: 5em;
 }
 
-/*#why-us img{
-    width: 75%;
-    height: 75%;
-}*/
 
-#why-us p{
+#product-description p{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -177,7 +172,7 @@ p{
     line-height: 22px;
 }
 
-#why-us h2{
+#product-description h2{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -187,7 +182,7 @@ p{
     margin: 0;
 }
 
-#why-us h3{
+#product-description h3{
     font-family: "Roboto";
     font-style: normal;
     font-weight: 900;
