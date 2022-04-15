@@ -134,7 +134,13 @@ p{
 
 #why-us{
     display: flex;
+    justify-content: center;
+}
+
+.why-wrapper{
+    display: flex;
     width: 100%;
+    max-width: 1440px;
     padding: 3em;
     box-sizing: border-box;
 }
@@ -143,7 +149,19 @@ p{
 }
 
 #why-us .img{
+    min-width:500px;
+    width:100%;
     flex:1;
+}
+
+#why-us img{
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+#why-us .content{
+    padding-right: 5em;
 }
 
 /*#why-us img{
