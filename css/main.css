@@ -40,13 +40,13 @@ p{
 .banner ul{
     flex: 1;
     text-align: right;
-    margin: 0 7em 0 0;
+    margin: 0 9em 0 0;
     line-height: 70px;
 }
 
 .banner ul li{
     display: inline-block;
-    margin: 0 3em 0 3em;
+    margin: 0 2em 0 2em;
 }
 
 .banner ul li a{
@@ -81,7 +81,7 @@ p{
     font-size: 79px;
     line-height: 93px;
     text-transform: uppercase;
-    margin: 0;
+    margin: 0 0 0.3em 0;
     color: #FFFFFF;
 }
 
@@ -199,11 +199,12 @@ p{
 }
 
 #products .header{
+    margin-top: 2em;
     color: #FFFFFF;
 }
 
 #products .slide{
-    margin: 0 2em 0 2em;
+    margin: 4.5em 2em 6em 2em;
     display: flex;
 }
 
@@ -262,7 +263,7 @@ p{
 }
 
 #products .separator, #contact-us .seperator{
-    margin: 2em 0 1em 0;
+    margin: 2em 0 2em 0;
     filter: brightness(0);
 }
 
