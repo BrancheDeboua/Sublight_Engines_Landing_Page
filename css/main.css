@@ -1,6 +1,6 @@
 body{
+    /* body has some margin by default */
     margin: 0;
-    font-family: 'Roboto';
     padding-bottom: 0.5em;
 }
 
@@ -52,7 +52,6 @@ p{
 .banner ul li a{
     font-weight: 700;
     font-size: 16px;
-    /*line-height: 19px;*/
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
