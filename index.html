@@ -148,11 +148,12 @@
             <form action="#">
                 <div>
                     <label for="name">Name: *</label>
-                    <input id="name" type="text" name="name" placeholder="Enter your full name">
+                    <input id="name" type="text" name="name" placeholder="Enter your full name" required minlength="2">
                 </div>
                 <div>
                     <label for="email">Email address: *</label>
-                    <input id="email" type="text" name="email" placeholder="yourname@company.com">
+                    <input id="email" type="text" name="email" placeholder="yourname@company.com" required>
+                    <div id="email-failure" style="display:none;color:red;">Invalid email address</div>
                 </div>
                 <div class="row">
                     <div>
@@ -200,5 +201,6 @@
     </footer>
     <!-- SCRIPTS -->
     <script src="js/main.js"></script>
+    <script src="js/validation.js"></script>
 </body>
 </html>
