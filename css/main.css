@@ -279,6 +279,23 @@ p{
     #footer-top h2{
         padding: 0!important;
     }
+
+    .slogan h2{
+        font-weight:800;
+        font-size: 31px;
+        line-height:60px;
+    }
+
+    .slogan h3{
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 60px;
+    }
+    
+    .slogan{
+        padding-bottom: 0!important;
+        margin-bottom: -2.5em;
+    }
 }
 
 #why .icons div{
