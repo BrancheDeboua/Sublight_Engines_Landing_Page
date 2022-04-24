@@ -307,6 +307,33 @@ p{
     #why p{
         margin-bottom: 2em;
     }
+
+    #products .header{
+        margin-left: -2.5em;
+        margin-right: -2.5em;
+    }
+
+    #products .header h2{
+        font-size:15px!important;
+    }
+
+    #products .header h3{
+        font-size:25px!important;
+        line-height: 30px!important;
+    }
+
+    #contact-us h2{
+        font-size:15px!important;
+    }
+
+    #contact-us h3{
+        font-size:25px!important;
+        line-height: 30px!important;
+    }
+
+    #footer-bottom{
+        text-transform: uppercase;
+    }
 }
 
 #why .icons div{
