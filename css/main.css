@@ -270,6 +270,15 @@ p{
         visibility: visible!important;
         opacity:1!important;
     }
+
+    #footer-top img{
+        width:80%;
+        margin: auto;
+    }
+
+    #footer-top h2{
+        padding: 0!important;
+    }
 }
 
 #why .icons div{
