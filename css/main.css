@@ -8,8 +8,7 @@ header {
     background-image: url("../img/bkg_1_1.png");
     background-repeat: no-repeat;
     background-size: cover;
-    /*background-size: 100% auto;*/
-    /*min-height: 65rem;*/
+    background-position: center;
     padding-top: 1.5em;
     display: flex;
     flex-direction: column;
@@ -202,7 +201,9 @@ p{
         text-align:center;
         padding: 0!important;
         background-color: rgba(0,0,0,0.75);
-        display:none;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0.5s, opacity 0.5s linear;
     }
 
     .banner ul li{
@@ -219,6 +220,49 @@ p{
         box-sizing: border-box;
         background-color: rgba(0,0,0,0.75);
         padding: 1em 0 2em 0!important;
+    }
+
+    #products .button a{
+        width: 60%!important;
+    }
+
+    #products .button a:hover{
+        background-color:white!important;
+        color: black!important;
+    }
+
+    #contact-us form{
+        width: 90%!important;
+    }
+
+    #contact-us .row{
+        flex-direction: column;
+    }
+
+    #contact-us .row div:first-child{
+        margin: 0!important;
+    }
+
+    #contact-us .row div:last-child{
+        margin: 1em 0!important;
+    }
+
+    #hamburger{
+        width: 10%;
+        height: 10%;
+        display: block!important;
+        text-align:right;
+        margin: 1.5em 1.5em 0 0!important;
+    }
+
+    .logo-and-hamburger{
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .display{
+        visibility: visible!important;
+        opacity:1!important;
     }
 }
 
@@ -357,6 +401,18 @@ p{
     margin: 2em 0 2em 0;
 }
 
+#products .button a{
+    color: white;
+    border: 3px solid white;
+    display: block;
+    padding: 1em 2.5em 1em 2.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: auto;
+    width: 20%;
+}
+
 #products .separator, #contact-us .seperator{
     margin: 2em 0 2em 0;
     filter: brightness(0);
@@ -491,5 +547,10 @@ p{
     line-height: 18px;
     text-transform: uppercase;
     color: #FF7630;
+    margin: 0;
+}
+
+#hamburger{
+    display:none;
     margin: 0;
 }
