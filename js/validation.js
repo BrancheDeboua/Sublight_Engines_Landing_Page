@@ -4,13 +4,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     
     document.getElementsByTagName('form')[0].addEventListener('submit', e => {
+        e.preventDefault();
         if (!re.test(email.value)){
             console.log("ble");
             document.getElementById('email-failure').style.display = 'block';
-            e.preventDefault();
         }
         else{
-            document.getElementById('email-failure').style.display = 'none';
+            this.contact_number.value = Math.random() * 100000 | 0;
+            emailjs.sendForm('contact-service', 'contact-form', this)
+                .then(() => console.log("Success"), (error) => console.log(error));
         }
             
     });
